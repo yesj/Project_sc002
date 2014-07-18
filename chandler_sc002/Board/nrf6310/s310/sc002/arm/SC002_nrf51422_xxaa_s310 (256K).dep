@@ -1,0 +1,727 @@
+Dependencies for Project 'SC002', Target 'nrf51422_xxaa_s310 (256K)': (DO NOT MODIFY !)
+F (.\..\..\..\..\..\Source\templates\arm\arm_startup_nrf51422_s310.s)(0x5317DFEE)(--cpu Cortex-M0 --li -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Device\Nordic\nRF51422\Include--list .\_build\arm_startup_nrf51422_s310.lst --xref -o .\_build\arm_startup_nrf51422_s310.o --depend .\_build\arm_startup_nrf51422_s310.d)
+F (.\..\..\..\..\..\Source\templates\system_nrf51.c)(0x52B2542A)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s310 -I..\..\..\..\..\Include\sd_common -I..\include --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Device\Nordic\nRF51422\Include-DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DANT_STACK_SUPPORT_REQD -DBOARD_NRF6310 -o .\_build\system_nrf51.o --omf_browse .\_build\system_nrf51.crf --depend .\_build\system_nrf51.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\system_nrf51.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51_bitfields.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51_deprecated.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\compiler_abstraction.h)(0x52B2542C)
+F (..\hrm_tx.c)(0x53BC1722)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s310 -I..\..\..\..\..\Include\sd_common -I..\include --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Device\Nordic\nRF51422\Include-DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DANT_STACK_SUPPORT_REQD -DBOARD_NRF6310 -o .\_build\hrm_tx.o --omf_browse .\_build\hrm_tx.crf --depend .\_build\hrm_tx.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Board\nrf6310\s310\sc002\include\hrm_tx.h)(0x53BC0F10)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Board\nrf6310\s310\sc002\include\ant_use_profiles_data.h)(0x53BC10FB)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nordic_common.h)(0x52B40804)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ant_interface.h)(0x52B252F8)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_svc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ant_parameters.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_error.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_error.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_timer.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_util.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\compiler_abstraction.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\system_nrf51.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_scheduler.h)(0x52B407FE)
+F (.\..\main.c)(0x53C4F885)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s310 -I..\..\..\..\..\Include\sd_common -I..\include --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Device\Nordic\nRF51422\Include-DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DANT_STACK_SUPPORT_REQD -DBOARD_NRF6310 -o .\_build\main.o --omf_browse .\_build\main.crf --depend .\_build\main.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Board\nrf6310\s310\sc002\include\ant_csc_tx.h)(0x53BCB596)
+I (D:\英達開發資料\SC002\程式\nrf51422\Board\nrf6310\s310\sc002\include\hrm_rx.h)(0x5344A878)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\sd_common\ant_stack_handler_types.h)(0x530ECD56)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\system_nrf51.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nordic_common.h)(0x52B40804)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51_bitfields.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51_deprecated.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\compiler_abstraction.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_error.h)(0x52B407FE)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_error.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf_gpio.h)(0x52B40800)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_ranges.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_types.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gap.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_svc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_l2cap.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_err.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gatt.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gattc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gatts.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_hci.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_services\ble_srv_common.h)(0x52B40800)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_util.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_advdata.h)(0x52B40802)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_services\ble_dis.h)(0x52B40800)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_services\ble_bas.h)(0x52B40800)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_conn_params.h)(0x52B40802)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\sd_common\softdevice_handler.h)(0x52B40804)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_sdm.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_soc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_error_soc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_error_sdm.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_scheduler.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\sd_common\ble_stack_handler_types.h)(0x52B40804)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_timer.h)(0x52B407FE)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_bondmngr.h)(0x52B40800)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ant_parameters.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ant_interface.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_debug_assert_handler.h)(0x52B40802)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\pstorage.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Board\nrf6310\s310\sc002\include\pstorage_platform.h)(0x53214EEE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Board\nrf6310\s310\sc002\include\battery.h)(0x53BBBAA3)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_button.h)(0x5331A4B6)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_gpiote.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Board\nrf6310\s310\sc002\include\uicr_config.h)(0x537ACB3A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_sensorsim.h)(0x52B40802)
+I (D:\英達開發資料\SC002\程式\nrf51422\Board\nrf6310\s310\sc002\include\csc_services.h)(0x53BCB3CE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_services\ble_cscs.h)(0x52B40800)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_services\ble_sc_ctrlpt.h)(0x52B40800)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_services\ble_sensor_location.h)(0x52B40800)
+I (D:\英達開發資料\SC002\程式\nrf51422\Board\nrf6310\s310\sc002\include\nus_service.h)(0x53BA6F9A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Board\nrf6310\s310\sc002\include\ble_nus.h)(0x53214F06)
+I (D:\英達開發資料\SC002\程式\nrf51422\Board\nrf6310\s310\sc002\include\dtm_rf_test.h)(0x53BAACD9)
+I (D:\英達開發資料\SC002\程式\nrf51422\Board\nrf6310\s310\sc002\include\ant_use_profiles_data.h)(0x53BC10FB)
+F (..\hrm_rx.c)(0x53AD0B6C)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s310 -I..\..\..\..\..\Include\sd_common -I..\include --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Device\Nordic\nRF51422\Include-DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DANT_STACK_SUPPORT_REQD -DBOARD_NRF6310 -o .\_build\hrm_rx.o --omf_browse .\_build\hrm_rx.crf --depend .\_build\hrm_rx.d)
+I (D:\英達開發資料\SC002\程式\nrf51422\Board\nrf6310\s310\sc002\include\hrm_rx.h)(0x5344A878)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\sd_common\ant_stack_handler_types.h)(0x530ECD56)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\system_nrf51.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Board\nrf6310\s310\sc002\include\hrm_tx.h)(0x53BC0F10)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_error.h)(0x52B407FE)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_error.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ant_interface.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_svc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ant_parameters.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_util.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\compiler_abstraction.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+F (..\..\..\..\..\Source\ble\ble_services\ble_dis.c)(0x52B407EA)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s310 -I..\..\..\..\..\Include\sd_common -I..\include --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Device\Nordic\nRF51422\Include-DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DANT_STACK_SUPPORT_REQD -DBOARD_NRF6310 -o .\_build\ble_dis.o --omf_browse .\_build\ble_dis.crf --depend .\_build\ble_dis.d)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_services\ble_dis.h)(0x52B40800)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_services\ble_srv_common.h)(0x52B40800)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_types.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_util.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\compiler_abstraction.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\system_nrf51.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_error.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_error.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gap.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_ranges.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_svc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gatt.h)(0x52B252F8)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gatts.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_l2cap.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_err.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nordic_common.h)(0x52B40804)
+F (..\..\..\..\..\Source\ble\ble_services\ble_bas.c)(0x52B407EA)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s310 -I..\..\..\..\..\Include\sd_common -I..\include --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Device\Nordic\nRF51422\Include-DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DANT_STACK_SUPPORT_REQD -DBOARD_NRF6310 -o .\_build\ble_bas.o --omf_browse .\_build\ble_bas.crf --depend .\_build\ble_bas.d)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_services\ble_bas.h)(0x52B40800)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_ranges.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_types.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gap.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_svc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_l2cap.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_err.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_error.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gatt.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gattc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gatts.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_services\ble_srv_common.h)(0x52B40800)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_util.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\compiler_abstraction.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\system_nrf51.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_error.h)(0x52B407FE)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nordic_common.h)(0x52B40804)
+F (..\ble_nus.c)(0x53214F06)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s310 -I..\..\..\..\..\Include\sd_common -I..\include --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Device\Nordic\nRF51422\Include-DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DANT_STACK_SUPPORT_REQD -DBOARD_NRF6310 -o .\_build\ble_nus.o --omf_browse .\_build\ble_nus.crf --depend .\_build\ble_nus.d)
+I (D:\英達開發資料\SC002\程式\nrf51422\Board\nrf6310\s310\sc002\include\ble_nus.h)(0x53214F06)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_ranges.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_types.h)(0x52B252F8)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gap.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_svc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_l2cap.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_err.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_error.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gatt.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gattc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gatts.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_services\ble_srv_common.h)(0x52B40800)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_util.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\compiler_abstraction.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\system_nrf51.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_error.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nordic_common.h)(0x52B40804)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+F (..\..\..\..\..\Source\ble\ble_services\ble_cscs.c)(0x52B407EA)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s310 -I..\..\..\..\..\Include\sd_common -I..\include --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Device\Nordic\nRF51422\Include-DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DANT_STACK_SUPPORT_REQD -DBOARD_NRF6310 -o .\_build\ble_cscs.o --omf_browse .\_build\ble_cscs.crf --depend .\_build\ble_cscs.d)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_services\ble_cscs.h)(0x52B40800)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_ranges.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_types.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gap.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_svc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_l2cap.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_err.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_error.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gatt.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gattc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gatts.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_services\ble_srv_common.h)(0x52B40800)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_util.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\compiler_abstraction.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\system_nrf51.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_error.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_services\ble_sc_ctrlpt.h)(0x52B40800)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_services\ble_sensor_location.h)(0x52B40800)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nordic_common.h)(0x52B40804)
+F (..\..\..\..\..\Source\ble\ble_services\ble_sc_ctrlpt.c)(0x52B407EA)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s310 -I..\..\..\..\..\Include\sd_common -I..\include --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Device\Nordic\nRF51422\Include-DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DANT_STACK_SUPPORT_REQD -DBOARD_NRF6310 -o .\_build\ble_sc_ctrlpt.o --omf_browse .\_build\ble_sc_ctrlpt.crf --depend .\_build\ble_sc_ctrlpt.d)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_services\ble_sc_ctrlpt.h)(0x52B40800)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_ranges.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_types.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gap.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_svc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_l2cap.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_err.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_error.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gatt.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gattc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gatts.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_services\ble_srv_common.h)(0x52B40800)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_util.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\compiler_abstraction.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\system_nrf51.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_error.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_services\ble_sensor_location.h)(0x52B40800)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nordic_common.h)(0x52B40804)
+F (..\..\..\..\..\Source\ble\ble_error_log.c)(0x52B407EC)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s310 -I..\..\..\..\..\Include\sd_common -I..\include --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Device\Nordic\nRF51422\Include-DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DANT_STACK_SUPPORT_REQD -DBOARD_NRF6310 -o .\_build\ble_error_log.o --omf_browse .\_build\ble_error_log.crf --depend .\_build\ble_error_log.d)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\system_nrf51.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_error_log.h)(0x52B40800)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_flash.h)(0x5387435A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_util.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\compiler_abstraction.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_error.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_error.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf_gpio.h)(0x52B40800)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51_bitfields.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\pstorage.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Board\nrf6310\s310\sc002\include\pstorage_platform.h)(0x53214EEE)
+F (..\..\..\..\..\Source\ble\ble_advdata.c)(0x52B407EC)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s310 -I..\..\..\..\..\Include\sd_common -I..\include --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Device\Nordic\nRF51422\Include-DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DANT_STACK_SUPPORT_REQD -DBOARD_NRF6310 -o .\_build\ble_advdata.o --omf_browse .\_build\ble_advdata.crf --depend .\_build\ble_advdata.d)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_advdata.h)(0x52B40802)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_ranges.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_types.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gap.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_svc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_l2cap.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_err.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_error.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gatt.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gattc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gatts.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_util.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\compiler_abstraction.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\system_nrf51.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_error.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nordic_common.h)(0x52B40804)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_services\ble_srv_common.h)(0x52B40800)
+F (..\..\..\..\..\Source\ble\ble_services\ble_srv_common.c)(0x52B407EA)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s310 -I..\..\..\..\..\Include\sd_common -I..\include --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Device\Nordic\nRF51422\Include-DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DANT_STACK_SUPPORT_REQD -DBOARD_NRF6310 -o .\_build\ble_srv_common.o --omf_browse .\_build\ble_srv_common.crf --depend .\_build\ble_srv_common.d)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_services\ble_srv_common.h)(0x52B40800)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_types.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_util.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\compiler_abstraction.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\system_nrf51.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_error.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_error.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gap.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_ranges.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_svc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gatt.h)(0x52B252F8)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nordic_common.h)(0x52B40804)
+F (..\..\..\..\..\Source\app_common\app_timer.c)(0x52B407F8)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s310 -I..\..\..\..\..\Include\sd_common -I..\include --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Device\Nordic\nRF51422\Include-DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DANT_STACK_SUPPORT_REQD -DBOARD_NRF6310 -o .\_build\app_timer.o --omf_browse .\_build\app_timer.crf --depend .\_build\app_timer.d)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_timer.h)(0x52B407FE)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_error.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_error.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_util.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\compiler_abstraction.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\system_nrf51.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_scheduler.h)(0x52B407FE)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51_bitfields.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_soc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_svc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_error_soc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf_delay.h)(0x53BAAD18)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51_deprecated.h)(0x52B2542C)
+F (..\..\..\..\..\Source\ble\ble_conn_params.c)(0x52B407D2)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s310 -I..\..\..\..\..\Include\sd_common -I..\include --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Device\Nordic\nRF51422\Include-DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DANT_STACK_SUPPORT_REQD -DBOARD_NRF6310 -o .\_build\ble_conn_params.o --omf_browse .\_build\ble_conn_params.crf --depend .\_build\ble_conn_params.d)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_conn_params.h)(0x52B40802)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_ranges.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_types.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gap.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_svc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_l2cap.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_err.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_error.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gatt.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gattc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gatts.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_services\ble_srv_common.h)(0x52B40800)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_util.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\compiler_abstraction.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\system_nrf51.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_error.h)(0x52B407FE)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nordic_common.h)(0x52B40804)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_hci.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_timer.h)(0x52B407FE)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_scheduler.h)(0x52B407FE)
+F (..\..\..\..\..\Source\ble\ble_bondmngr.c)(0x52B407EC)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s310 -I..\..\..\..\..\Include\sd_common -I..\include --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Device\Nordic\nRF51422\Include-DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DANT_STACK_SUPPORT_REQD -DBOARD_NRF6310 -o .\_build\ble_bondmngr.o --omf_browse .\_build\ble_bondmngr.crf --depend .\_build\ble_bondmngr.d)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_bondmngr.h)(0x52B40800)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_ranges.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_types.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gap.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_svc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_l2cap.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_err.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_error.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gatt.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gattc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gatts.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_services\ble_srv_common.h)(0x52B40800)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_util.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\compiler_abstraction.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\system_nrf51.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_error.h)(0x52B407FE)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nordic_common.h)(0x52B40804)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf_assert.h)(0x52B40800)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51_bitfields.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51_deprecated.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\crc16.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\pstorage.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Board\nrf6310\s310\sc002\include\pstorage_platform.h)(0x53214EEE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Board\nrf6310\s310\sc002\ble_bondmngr_cfg.h)(0x53214EEE)
+F (..\..\..\..\..\Source\ble\ble_debug_assert_handler.c)(0x52B407EC)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s310 -I..\..\..\..\..\Include\sd_common -I..\include --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Device\Nordic\nRF51422\Include-DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DANT_STACK_SUPPORT_REQD -DBOARD_NRF6310 -o .\_build\ble_debug_assert_handler.o --omf_browse .\_build\ble_debug_assert_handler.crf --depend .\_build\ble_debug_assert_handler.d)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_debug_assert_handler.h)(0x52B40802)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\system_nrf51.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_error_log.h)(0x52B40800)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_flash.h)(0x5387435A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nordic_common.h)(0x52B40804)
+F (..\..\..\..\..\Source\app_common\crc16.c)(0x52B407F2)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s310 -I..\..\..\..\..\Include\sd_common -I..\include --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Device\Nordic\nRF51422\Include-DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DANT_STACK_SUPPORT_REQD -DBOARD_NRF6310 -o .\_build\crc16.o --omf_browse .\_build\crc16.crf --depend .\_build\crc16.d)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\crc16.h)(0x52B407FE)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+F (..\..\..\..\..\Source\sd_common\softdevice_handler.c)(0x52B407FC)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s310 -I..\..\..\..\..\Include\sd_common -I..\include --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Device\Nordic\nRF51422\Include-DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DANT_STACK_SUPPORT_REQD -DBOARD_NRF6310 -o .\_build\softdevice_handler.o --omf_browse .\_build\softdevice_handler.crf --depend .\_build\softdevice_handler.d)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\sd_common\softdevice_handler.h)(0x52B40804)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_sdm.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_svc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\system_nrf51.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_soc.h)(0x52B252F8)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51_bitfields.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_error_soc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_error.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_error_sdm.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_error.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_scheduler.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_util.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\compiler_abstraction.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\sd_common\ble_stack_handler_types.h)(0x52B40804)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_ranges.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_types.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gap.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_l2cap.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_err.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gatt.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gattc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gatts.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\sd_common\ant_stack_handler_types.h)(0x530ECD56)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nordic_common.h)(0x52B40804)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf_assert.h)(0x52B40800)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ant_interface.h)(0x52B252F8)
+F (..\..\..\..\..\Source\app_common\pstorage.c)(0x52B407F8)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s310 -I..\..\..\..\..\Include\sd_common -I..\include --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Device\Nordic\nRF51422\Include-DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DANT_STACK_SUPPORT_REQD -DBOARD_NRF6310 -o .\_build\pstorage.o --omf_browse .\_build\pstorage.crf --depend .\_build\pstorage.d)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nordic_common.h)(0x52B40804)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_error.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf_assert.h)(0x52B40800)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\system_nrf51.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51_bitfields.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51_deprecated.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\compiler_abstraction.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_soc.h)(0x52B252F8)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_svc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_error_soc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_util.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_error.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\pstorage.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Board\nrf6310\s310\sc002\include\pstorage_platform.h)(0x53214EEE)
+F (..\..\..\..\..\Source\app_common\app_button.c)(0x5331A527)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s310 -I..\..\..\..\..\Include\sd_common -I..\include --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Device\Nordic\nRF51422\Include-DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DANT_STACK_SUPPORT_REQD -DBOARD_NRF6310 -o .\_build\app_button.o --omf_browse .\_build\app_button.crf --depend .\_build\app_button.d)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_button.h)(0x5331A4B6)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\system_nrf51.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51_bitfields.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51_deprecated.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\compiler_abstraction.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_error.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_error.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_scheduler.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf_gpio.h)(0x52B40800)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nordic_common.h)(0x52B40804)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_util.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_gpiote.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_timer.h)(0x52B407FE)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+F (..\..\..\..\..\Source\app_common\app_gpiote.c)(0x52B407F8)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s310 -I..\..\..\..\..\Include\sd_common -I..\include --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Device\Nordic\nRF51422\Include-DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DANT_STACK_SUPPORT_REQD -DBOARD_NRF6310 -o .\_build\app_gpiote.o --omf_browse .\_build\app_gpiote.crf --depend .\_build\app_gpiote.d)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_gpiote.h)(0x52B407FE)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\system_nrf51.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51_bitfields.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51_deprecated.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\compiler_abstraction.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_error.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_error.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_util.h)(0x52B407FE)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf_gpio.h)(0x52B40800)
+F (..\..\..\..\..\Source\ble\ble_radio_notification.c)(0x52B407EC)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s310 -I..\..\..\..\..\Include\sd_common -I..\include --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Device\Nordic\nRF51422\Include-DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DANT_STACK_SUPPORT_REQD -DBOARD_NRF6310 -o .\_build\ble_radio_notification.o --omf_browse .\_build\ble_radio_notification.crf --depend .\_build\ble_radio_notification.d)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_radio_notification.h)(0x52B40802)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_soc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_svc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\system_nrf51.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51_bitfields.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_error_soc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_error.h)(0x52B252F8)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+F (..\..\..\..\..\Source\ble\ble_flash.c)(0x538D75FD)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s310 -I..\..\..\..\..\Include\sd_common -I..\include --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Device\Nordic\nRF51422\Include-DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DANT_STACK_SUPPORT_REQD -DBOARD_NRF6310 -o .\_build\ble_flash.o --omf_browse .\_build\ble_flash.crf --depend .\_build\ble_flash.d)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_flash.h)(0x5387435A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\system_nrf51.h)(0x52B2542A)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_soc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_svc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51_bitfields.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_error_soc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_error.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nordic_common.h)(0x52B40804)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51_deprecated.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\compiler_abstraction.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_util.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_error.h)(0x52B407FE)
+F (..\..\..\..\..\Source\ble\ble_dtm.c)(0x52B407EC)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s310 -I..\..\..\..\..\Include\sd_common -I..\include --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Device\Nordic\nRF51422\Include-DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DANT_STACK_SUPPORT_REQD -DBOARD_NRF6310 -o .\_build\ble_dtm.o --omf_browse .\_build\ble_dtm.crf --depend .\_build\ble_dtm.d)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_dtm.h)(0x53A39416)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\system_nrf51.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51_bitfields.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51_deprecated.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\compiler_abstraction.h)(0x52B2542C)
+F (..\..\..\..\..\Source\ble\ble_sensorsim.c)(0x52B407E4)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s310 -I..\..\..\..\..\Include\sd_common -I..\include --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Device\Nordic\nRF51422\Include-DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DANT_STACK_SUPPORT_REQD -DBOARD_NRF6310 -o .\_build\ble_sensorsim.o --omf_browse .\_build\ble_sensorsim.crf --depend .\_build\ble_sensorsim.d)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_sensorsim.h)(0x52B40802)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+F (..\ant_csc_tx.c)(0x53BCB924)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s310 -I..\..\..\..\..\Include\sd_common -I..\include --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Device\Nordic\nRF51422\Include-DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DANT_STACK_SUPPORT_REQD -DBOARD_NRF6310 -o .\_build\ant_csc_tx.o --omf_browse .\_build\ant_csc_tx.crf --depend .\_build\ant_csc_tx.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Board\nrf6310\s310\sc002\include\ant_csc_tx.h)(0x53BCB596)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Board\nrf6310\s310\sc002\include\ant_use_profiles_data.h)(0x53BC10FB)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nordic_common.h)(0x52B40804)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ant_interface.h)(0x52B252F8)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_svc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ant_parameters.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_error.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_error.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_timer.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_util.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\compiler_abstraction.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\system_nrf51.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_scheduler.h)(0x52B407FE)
+F (..\battery.c)(0x53BBA17C)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s310 -I..\..\..\..\..\Include\sd_common -I..\include --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Device\Nordic\nRF51422\Include-DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DANT_STACK_SUPPORT_REQD -DBOARD_NRF6310 -o .\_build\battery.o --omf_browse .\_build\battery.crf --depend .\_build\battery.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nordic_common.h)(0x52B40804)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\system_nrf51.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51_bitfields.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51_deprecated.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\compiler_abstraction.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_error.h)(0x52B407FE)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_error.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf_gpio.h)(0x52B40800)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\sd_common\softdevice_handler.h)(0x52B40804)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_sdm.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_svc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_soc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_error_soc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_error_sdm.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_scheduler.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_util.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\sd_common\ble_stack_handler_types.h)(0x52B40804)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_ranges.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_types.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gap.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_l2cap.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_err.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gatt.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gattc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gatts.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\sd_common\ant_stack_handler_types.h)(0x530ECD56)
+I (D:\英達開發資料\SC002\程式\nrf51422\Board\nrf6310\s310\sc002\include\battery.h)(0x53BBBAA3)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_services\ble_bas.h)(0x52B40800)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_services\ble_srv_common.h)(0x52B40800)
+F (..\csc_services.c)(0x53BCB350)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s310 -I..\..\..\..\..\Include\sd_common -I..\include --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Device\Nordic\nRF51422\Include-DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DANT_STACK_SUPPORT_REQD -DBOARD_NRF6310 -o .\_build\csc_services.o --omf_browse .\_build\csc_services.crf --depend .\_build\csc_services.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Board\nrf6310\s310\sc002\include\csc_services.h)(0x53BCB3CE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_services\ble_cscs.h)(0x52B40800)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_ranges.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_types.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gap.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_svc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_l2cap.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_err.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_error.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gatt.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gattc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gatts.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_services\ble_srv_common.h)(0x52B40800)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_util.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\compiler_abstraction.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\system_nrf51.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_error.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_services\ble_sc_ctrlpt.h)(0x52B40800)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_services\ble_sensor_location.h)(0x52B40800)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_sensorsim.h)(0x52B40802)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_timer.h)(0x52B407FE)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_scheduler.h)(0x52B407FE)
+F (..\nus_service.c)(0x53BD5838)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s310 -I..\..\..\..\..\Include\sd_common -I..\include --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Device\Nordic\nRF51422\Include-DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DANT_STACK_SUPPORT_REQD -DBOARD_NRF6310 -o .\_build\nus_service.o --omf_browse .\_build\nus_service.crf --depend .\_build\nus_service.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Board\nrf6310\s310\sc002\include\nus_service.h)(0x53BA6F9A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Board\nrf6310\s310\sc002\include\ble_nus.h)(0x53214F06)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_ranges.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_types.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gap.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_svc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_l2cap.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_err.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_error.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gatt.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gattc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\ble_gatts.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_services\ble_srv_common.h)(0x52B40800)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_util.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\compiler_abstraction.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\system_nrf51.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_error.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Board\nrf6310\s310\sc002\include\ant_csc_tx.h)(0x53BCB596)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\sd_common\softdevice_handler.h)(0x52B40804)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_sdm.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_soc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51_bitfields.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_error_soc.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\s310\nrf_error_sdm.h)(0x52B252F8)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\app_common\app_scheduler.h)(0x52B407FE)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\sd_common\ble_stack_handler_types.h)(0x52B40804)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\sd_common\ant_stack_handler_types.h)(0x530ECD56)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_flash.h)(0x5387435A)
+F (..\dtm_rf_test.c)(0x53BAACD8)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s310 -I..\..\..\..\..\Include\sd_common -I..\include --c99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Device\Nordic\nRF51422\Include-DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DANT_STACK_SUPPORT_REQD -DBOARD_NRF6310 -o .\_build\dtm_rf_test.o --omf_browse .\_build\dtm_rf_test.crf --depend .\_build\dtm_rf_test.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\英達開發資料\SC002\程式\nrf51422\Board\nrf6310\s310\sc002\include\dtm_rf_test.h)(0x53BAACD9)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf_delay.h)(0x53BAAD18)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51.h)(0x52B2542A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\system_nrf51.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51_bitfields.h)(0x52B2542A)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf51_deprecated.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\compiler_abstraction.h)(0x52B2542C)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\nrf_gpio.h)(0x52B40800)
+I (D:\英達開發資料\SC002\程式\nrf51422\Include\ble\ble_dtm.h)(0x53A39416)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)

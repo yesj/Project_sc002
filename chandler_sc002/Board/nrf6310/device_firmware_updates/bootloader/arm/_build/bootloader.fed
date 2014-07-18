@@ -1,0 +1,76 @@
+;#<FEEDBACK># ARM Linker, 5.03 [Build 76]: Last Updated: Thu Jun 26 17:56:16 2014
+;VERSION 0.2
+;FILE app_gpiote.o
+__asm___12_app_gpiote_c_3bb2fe7b____REV16 <= USED 0
+__asm___12_app_gpiote_c_3bb2fe7b____REVSH <= USED 0
+app_gpiote_pins_state_get <= USED 0
+app_gpiote_user_disable <= USED 0
+app_gpiote_user_enable <= USED 0
+app_gpiote_user_register <= USED 0
+;FILE app_scheduler.o
+__asm___15_app_scheduler_c_d997b682____REV16 <= USED 0
+__asm___15_app_scheduler_c_d997b682____REVSH <= USED 0
+;FILE app_timer.o
+__asm___11_app_timer_c_cd27f9c3____REV16 <= USED 0
+__asm___11_app_timer_c_cd27f9c3____REVSH <= USED 0
+app_timer_cnt_diff_compute <= USED 0
+app_timer_cnt_get <= USED 0
+app_timer_stop_all <= USED 0
+;FILE arm_startup_nrf51.o
+;FILE ble_advdata.o
+__asm___13_ble_advdata_c_cb25090c____REV16 <= USED 0
+__asm___13_ble_advdata_c_cb25090c____REVSH <= USED 0
+;FILE ble_conn_params.o
+__asm___17_ble_conn_params_c_2dcac06e____REV16 <= USED 0
+__asm___17_ble_conn_params_c_2dcac06e____REVSH <= USED 0
+ble_conn_params_change_conn_params <= USED 0
+;FILE ble_dfu.o
+__asm___9_ble_dfu_c_c50c590a____REV16 <= USED 0
+__asm___9_ble_dfu_c_c50c590a____REVSH <= USED 0
+;FILE ble_flash.o
+__asm___11_ble_flash_c_0294ac3c____REV16 <= USED 0
+__asm___11_ble_flash_c_0294ac3c____REVSH <= USED 0
+ble_flash_block_write <= USED 0
+ble_flash_crc16_compute <= USED 0
+ble_flash_on_radio_active_evt <= USED 0
+ble_flash_page_addr <= USED 0
+ble_flash_page_erase <= USED 0
+ble_flash_page_read <= USED 0
+ble_flash_page_write <= USED 0
+;FILE ble_srv_common.o
+__asm___16_ble_srv_common_c_d5082fca____REV16 <= USED 0
+__asm___16_ble_srv_common_c_d5082fca____REVSH <= USED 0
+ble_srv_ascii_to_utf8 <= USED 0
+ble_srv_report_ref_encode <= USED 0
+;FILE bootloader.o
+__asm___12_bootloader_c_cc6fb980____REV16 <= USED 0
+__asm___12_bootloader_c_cc6fb980____REVSH <= USED 0
+;FILE bootloader_util_arm.o
+__asm___21_bootloader_util_arm_c_bdb7f6cd____REV16 <= USED 0
+__asm___21_bootloader_util_arm_c_bdb7f6cd____REVSH <= USED 0
+;FILE crc16.o
+;FILE dfu_dual_bank.o
+__asm___15_dfu_dual_bank_c_dfu_init____REV16 <= USED 0
+__asm___15_dfu_dual_bank_c_dfu_init____REVSH <= USED 0
+;FILE dfu_transport_ble.o
+__asm___19_dfu_transport_ble_c_5a937f2e____REV16 <= USED 0
+__asm___19_dfu_transport_ble_c_5a937f2e____REVSH <= USED 0
+;FILE hci_mem_pool.o
+hci_mem_pool_close <= USED 0
+hci_mem_pool_tx_alloc <= USED 0
+hci_mem_pool_tx_free <= USED 0
+;FILE main.o
+__asm___6_main_c_94ae794d____REV16 <= USED 0
+__asm___6_main_c_94ae794d____REVSH <= USED 0
+;FILE pstorage.o
+__asm___10_pstorage_c_1dab5049____REV16 <= USED 0
+__asm___10_pstorage_c_1dab5049____REVSH <= USED 0
+pstorage_block_identifier_get <= USED 0
+;FILE softdevice_handler.o
+__asm___20_softdevice_handler_c_370b0038____REV16 <= USED 0
+__asm___20_softdevice_handler_c_370b0038____REVSH <= USED 0
+softdevice_handler_sd_disable <= USED 0
+;FILE system_nrf51.o
+SystemCoreClockUpdate <= USED 0
+__asm___14_system_nrf51_c_5d646a67____REV16 <= USED 0
+__asm___14_system_nrf51_c_5d646a67____REVSH <= USED 0

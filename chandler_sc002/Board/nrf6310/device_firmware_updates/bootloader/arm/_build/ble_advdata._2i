@@ -1,0 +1,5 @@
+-c --cpu Cortex-M0 --li -g -O3 --apcs=interwork --enum_is_int -I..\ -I..\include -I..\include\hci_transport -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s310 -I..\..\..\..\..\Include\sd_common --c99
+-I C:\Keil\ARM\RV31\INC
+-I C:\Keil\ARM\CMSIS\Include
+-I C:\Keil\ARM\Device\Nordic\nRF51822\Include
+-DNRF51 -DDEBUG_NRF_USER -DBOARD_PCA10003 -DBOOTLOADER_BANKED -DBLE_STACK_SUPPORT_REQD -DS310_STACK -o .\_build\ble_advdata.o --omf_browse .\_build\ble_advdata.crf --depend .\_build\ble_advdata.d --feedback ".\_build\bootloader.fed" "..\..\..\..\..\Source\ble\ble_advdata.c"
