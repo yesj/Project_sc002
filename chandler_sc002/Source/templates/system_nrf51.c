@@ -65,6 +65,18 @@ void SystemInit(void)
     {
         NRF_MPU->DISABLEINDEBUG = MPU_DISABLEINDEBUG_DISABLEINDEBUG_Disabled << MPU_DISABLEINDEBUG_DISABLEINDEBUG_Pos;
     }
+		
+    /* Handle BLE Radio tuning parameters from production for DTM if required. */
+    /* Only needed for DTM without SoftDevice, as the SoftDevice normally handles this. */
+    /* PCN-083. */
+    if ( ((*(uint32_t *)0x100000AC) & 0x00000008) == 0x00000000)
+    {
+        *(uint32_t *)0x40001724 = *(uint32_t *)0x100000EC;
+        *(uint32_t *)0x40001728 = *(uint32_t *)0x100000F0;
+        *(uint32_t *)0x4000172C = *(uint32_t *)0x100000F4;
+        *(uint32_t *)0x40001730 = *(uint32_t *)0x100000F8;
+        *(uint32_t *)0x40001734 = *(uint32_t *)0x100000FC | 0x80000000;
+    }
 }
 
 

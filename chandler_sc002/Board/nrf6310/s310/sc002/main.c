@@ -88,14 +88,11 @@
 
 */
 
-#define TEST1_IN_PIN										0
-#define TEST2_IN_PIN										30
-
 #define SPEED_DEC_IN_PIN								1	
 #define CADENCE_DEC_IN_PIN							4
 
-#define DEVICE_NAME                     "SC002 DUAL V01"															/**< Name of device. Will be included in the advertising data. */
-#define FIRMWARE_VERSION                "1"																					// 顯示在藍芽上版本
+#define DEVICE_NAME                     "SC002 DUAL V02"															/**< Name of device. Will be included in the advertising data. */
+#define FIRMWARE_VERSION                "2"																					// 顯示在藍芽上版本
 #define MANUFACTURER_NAME               "alatech"																		/**< Manufacturer. Will be passed to Device Information Service. */
 #define APP_ADV_INTERVAL                40*40																				/**< The advertising interval (in units of 0.625 ms. This value corresponds to 25 ms). */
 //#define APP_ADV_INTERVAL                (211.25/0.625)
@@ -615,13 +612,11 @@ static void button_event_handler(uint8_t pin_no, uint8_t button_action)
 							R_BicycleNoUseCount = 0;
 							ble_sensor_wheel_data(RtcNowTimeConversionUnit);
 							ant_sensor_wheel_data(RtcNowTimeConversionUnit);
-							nrf_gpio_pin_toggle(TEST1_IN_PIN);
                 break;
             case CADENCE_DEC_IN_PIN:
 							R_BicycleNoUseCount = 0;
 							ble_sensor_crank_data(RtcNowTimeConversionUnit);
 							ant_sensor_crank_data(RtcNowTimeConversionUnit);
-							nrf_gpio_pin_toggle(TEST2_IN_PIN);
                 break;
             default:
 							APP_ERROR_HANDLER(pin_no);
@@ -695,8 +690,6 @@ int main(void)
 		test_rf();
 		//=====================
     // Initialize peripherals
-		nrf_gpio_cfg_output(TEST1_IN_PIN);
-		nrf_gpio_cfg_output(TEST2_IN_PIN);
     timers_init();
     buttons_init();
 		//======================

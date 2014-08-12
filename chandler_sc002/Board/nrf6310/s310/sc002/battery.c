@@ -63,7 +63,7 @@ static uint8_t TI_battery_level_in_percent(const uint16_t mvolts)
     } else if (mvolts <= BATT_ADC_LEVEL_2dot1V) {
 				battery_level = 0;
 		} else {
-				battery_level = (mvolts - BATT_ADC_LEVEL_2dot1V) * (100 / (BATT_ADC_LEVEL_3V - BATT_ADC_LEVEL_2dot1V));
+				battery_level = ((mvolts - BATT_ADC_LEVEL_2dot1V) * 100) / (BATT_ADC_LEVEL_3V - BATT_ADC_LEVEL_2dot1V);
 		}
 	    return battery_level;
 }
