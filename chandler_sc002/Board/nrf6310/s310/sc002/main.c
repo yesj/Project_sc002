@@ -84,15 +84,24 @@
 // 修改內容
 /*
 
-
+ 2014 / 8/ 12
+ 
+ 1. 修改電池公式
+ 2. 移除TEST1_IN_PIN、TEST2_IN_PIN
+ 3. 加入NRODIC DTM代碼
+ 顯示版本碼 V2
+ 2014 / 8/ 12
+ 1. 解決IOS APP LightBlue 相容性問題
+ 生產版本
+ 顯示版本碼 V10
 
 */
 
 #define SPEED_DEC_IN_PIN								1	
 #define CADENCE_DEC_IN_PIN							4
 
-#define DEVICE_NAME                     "SC002 DUAL V02"															/**< Name of device. Will be included in the advertising data. */
-#define FIRMWARE_VERSION                "2"																					// 顯示在藍芽上版本
+#define DEVICE_NAME                     "SC002 DUAL V10"															/**< Name of device. Will be included in the advertising data. */
+#define FIRMWARE_VERSION                "10"																					// 顯示在藍芽上版本
 #define MANUFACTURER_NAME               "alatech"																		/**< Manufacturer. Will be passed to Device Information Service. */
 #define APP_ADV_INTERVAL                40*40																				/**< The advertising interval (in units of 0.625 ms. This value corresponds to 25 ms). */
 //#define APP_ADV_INTERVAL                (211.25/0.625)
@@ -562,7 +571,12 @@ static void on_ble_evt(ble_evt_t * p_ble_evt)
 							//APP_ERROR_CHECK(err_code);
             }
             break;
-            
+
+					case BLE_GATTS_EVT_SYS_ATTR_MISSING:
+						err_code = sd_ble_gatts_sys_attr_set(m_conn_handle, NULL, 0);
+						APP_ERROR_CHECK(err_code);
+						break;
+					
         default:
             // No implementation needed.
             break;
