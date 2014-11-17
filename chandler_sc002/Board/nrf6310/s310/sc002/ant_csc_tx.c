@@ -103,15 +103,44 @@ void ant_csc_datamessage_transmit(void)
  */
 void ant_sensor_wheel_data(uint16_t RtcNowTime)
 {
-	antCscData.BikeSpeedEventTime = RtcNowTime;
-	antCscData.CumulativeSpeedRevolutionCount++;
+		static uint16_t old_rtcNowTime;
+		uint16_t calculate_interval;
+		if(RtcNowTime > old_rtcNowTime) 
+		{
+			calculate_interval = RtcNowTime - old_rtcNowTime;
+		}
+		else
+		{
+			calculate_interval = 0xFFFF - old_rtcNowTime + RtcNowTime;
+		}
+			if(calculate_interval >  70)
+			{
+				antCscData.BikeSpeedEventTime = RtcNowTime;
+				antCscData.CumulativeSpeedRevolutionCount++;
+				old_rtcNowTime = RtcNowTime;
+			}
+
 }
 
 /**@brief 更新 ANT資料 踏板轉速時間 
  */
 void ant_sensor_crank_data(uint16_t RtcNowTime)
 {
-	antCscData.BikeCadenceEventTime = RtcNowTime;
-	antCscData.CumulativeCadenceRevolutionCount++;
+		static uint16_t old_rtcNowTime;
+		uint16_t calculate_interval;
+		if(RtcNowTime > old_rtcNowTime) 
+		{
+			calculate_interval = RtcNowTime - old_rtcNowTime;
+		}
+		else
+		{
+			calculate_interval = 0xFFFF - old_rtcNowTime + RtcNowTime;
+		}
+			if(calculate_interval >  250)
+			{
+				antCscData.BikeCadenceEventTime = RtcNowTime;
+				antCscData.CumulativeCadenceRevolutionCount++;
+				old_rtcNowTime = RtcNowTime;
+			}
 }
 

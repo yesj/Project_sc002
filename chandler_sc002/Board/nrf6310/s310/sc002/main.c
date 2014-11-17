@@ -95,13 +95,25 @@
  生產版本
  顯示版本碼 V10
 
+ 2014 / 8/ 12
+ 1. 解決IOS APP LightBlue 相容性問題
+ 生產版本
+ 顯示版本碼 V10
+
+ 2014 / 11/ 6
+ 1. bluetooth 、 ant 傳送 wheel、crank TIMER時間會有落差，在RTC計數器上面加上除頻公式
+    ，讓計數器Overflow時間，接近bluetooth smart定前的時間，讓落差減到最低
+ 2  在傳送 wheel、crank TIMER時間，加入限制數值的大小
+ 生產版本
+ 顯示版本碼 V11
+
 */
 
 #define SPEED_DEC_IN_PIN								1	
 #define CADENCE_DEC_IN_PIN							4
 
-#define DEVICE_NAME                     "SC002 DUAL V10"															/**< Name of device. Will be included in the advertising data. */
-#define FIRMWARE_VERSION                "10"																					// 顯示在藍芽上版本
+#define DEVICE_NAME                     "SC002 DUAL V11"															/**< Name of device. Will be included in the advertising data. */
+#define FIRMWARE_VERSION                "11"																					// 顯示在藍芽上版本
 #define MANUFACTURER_NAME               "alatech"																		/**< Manufacturer. Will be passed to Device Information Service. */
 #define APP_ADV_INTERVAL                40*40																				/**< The advertising interval (in units of 0.625 ms. This value corresponds to 25 ms). */
 //#define APP_ADV_INTERVAL                (211.25/0.625)
@@ -618,8 +630,11 @@ static void button_event_handler(uint8_t pin_no, uint8_t button_action)
 		uint16_t RtcNowTimeConversionUnit;
     if (button_action == APP_BUTTON_PUSH)
     {
-				app_timer_cnt_get(&Rtc1NowTime);
-				RtcNowTimeConversionUnit = (Rtc1NowTime * 0.000030571 * 1024); // 單位 1 / 1024 S
+				app_timer_cnt_get(&Rtc1NowTime);		// 1 count = 30.517 uS	Overflow 512 Sec
+				// Data 傳送單位為 ( 1 / 1024 Sec) ，最大數值 65535 (16 bit) Overflow 63.999 Sec
+				// 系統 Overflow 時間要跟傳出去的data 時間一樣 512 / 64 = 8
+				Rtc1NowTime = Rtc1NowTime / 8;			// 在放大8倍時間 
+				RtcNowTimeConversionUnit = (Rtc1NowTime *(0.000030517 * 8) * 1024 ); // 單位 1 / 1024 S
         switch (pin_no)
         {
             case SPEED_DEC_IN_PIN:

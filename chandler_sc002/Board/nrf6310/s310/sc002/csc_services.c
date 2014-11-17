@@ -124,16 +124,46 @@ void csc_services_init(void)
  */
 void ble_sensor_wheel_data(uint16_t RtcNowTime)
 {
-		cscs_meas.last_wheel_event_time = RtcNowTime;
-		cscs_meas.cumulative_wheel_revs++;
+		static uint16_t old_rtcNowTime;
+		uint16_t calculate_interval;
+	
+		if(RtcNowTime > old_rtcNowTime) 
+		{
+			calculate_interval = RtcNowTime - old_rtcNowTime;
+		}
+		else
+		{
+			calculate_interval = 0xFFFF - old_rtcNowTime + RtcNowTime;
+		}
+			if(calculate_interval >  70)
+			{
+				cscs_meas.last_wheel_event_time = RtcNowTime;
+				cscs_meas.cumulative_wheel_revs++;
+				old_rtcNowTime = RtcNowTime;
+			}
 }
 
 /**@brief 
  */
 void ble_sensor_crank_data(uint16_t RtcNowTime)
 {
-		cscs_meas.last_crank_event_time = RtcNowTime;
-		cscs_meas.cumulative_crank_revs++;
+		static uint16_t old_rtcNowTime;
+		uint16_t calculate_interval;
+	
+		if(RtcNowTime > old_rtcNowTime) 
+		{
+			calculate_interval = RtcNowTime - old_rtcNowTime;
+		}
+		else
+		{
+			calculate_interval = 0xFFFF - old_rtcNowTime + RtcNowTime;
+		}
+			if(calculate_interval > 250)
+			{
+				cscs_meas.last_crank_event_time = RtcNowTime;
+				cscs_meas.cumulative_crank_revs++;
+				old_rtcNowTime = RtcNowTime;
+			}
 }
 
 /**@brief CSC 資料更新
